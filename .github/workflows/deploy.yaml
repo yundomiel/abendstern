@@ -1,0 +1,16 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: macos-11.0
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # 여기에 배포를 위한 스텝들을 추가합니다.
