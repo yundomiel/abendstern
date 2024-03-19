@@ -10968,7 +10968,7 @@ html {
 }
 
 .masthead {
-  height: 100vh;
+  height: 70vh;
   overflow:hidden;
 }
 
@@ -11052,19 +11052,17 @@ html {
 
 
 
-/* CSS */
 .text-animation {
   position: relative;
-  overflow: hidden;
 }
 
 .additional-info {
-  position: absolute;
+  position:absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   white-space: nowrap;
-  opacity: 0;
+  opacity: 1;
 }
 
 .animate {
@@ -11096,3 +11094,5 @@ html {
     transform: translateX(-50%);
   }
 }
+
+

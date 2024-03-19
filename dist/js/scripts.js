@@ -71,14 +71,6 @@ document.addEventListener("DOMContentLoaded", function() {
     var sentences = [
       "Hi, I am an ISTQB certified Test Engineer.",
       "My passion is in Test Automation, especially for Mobile Apps.",
-      "I am a self-taught tester and am keep improving my skills.",
-      "Undómiel means Evening Star, from <Lord of the Ring>.",
-      "It's the elf Arwen's name, my favorite character.",
-      "Her image embodies grace, determination and courage.",
-      "These align with my core values as a self-initiative IT professional.",
-      "I took unconventional path to come to Tech domain as a minority.",
-      "Still I love being the rare kind.",
-      "Just Undómiel's commitment, I want to pursue my career. ",
       "Wanna know more about me?",
       "Find me @yundomiel on Github."
     ];
