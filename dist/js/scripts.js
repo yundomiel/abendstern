@@ -70,7 +70,8 @@ document.addEventListener("DOMContentLoaded", function() {
     var additionalInfo = document.querySelector('.additional-info');
     var sentences = [
       "Hi, I am an ISTQB certified Test Engineer.",
-      "My passion is in Test Automation, especially for Mobile Apps.",
+      "My passion is in Test Automation", 
+      "Especially for Mobile Apps.",
       "Wanna know more about me?",
       "Find me @yundomiel on Github."
     ];
@@ -82,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function() {
           typeWriter(text, i + 1, cb);
         }, 100); // 0.1초마다 한 글자씩 추가
       } else {
-        setTimeout(cb, 3000); // 3초 후에 텍스트 사라짐
+        setTimeout(cb, 2000); // 3초 후에 텍스트 사라짐
       }
     }
   
@@ -93,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function() {
           typeWriter(sentence, 0, function() {
             setTimeout(function() {
               additionalInfo.innerHTML = '';
-            }, 5000); // 5초 후에 텍스트 사라짐
+            }, 3000); // 5초 후에 텍스트 사라짐
           });
         }, index * 11000); // 11초 간격으로 문장을 나타나게 설정 (타이핑 시간 100ms * 글자 수 + 3초)
       });
